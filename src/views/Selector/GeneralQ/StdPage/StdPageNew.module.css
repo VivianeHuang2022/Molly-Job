@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    /* gap: 20px; */
+}
+
+.QContainer{
+    font-size: 35px;
+    width: 50%;
+    padding:2%;
+    margin:0 5%;
+    /* padding-right: 3%;
+    padding-left: 3%; */
+    /* text-align: center; */
+}
+
+.Acontainer{
+    font-size: 20px;
+    padding: 10px;
+    /* text-align: center; */
+}
+
+.contentEditableDiv {
+    white-space: pre-wrap;
+    border: none; /* 移除边框 */
+  }
+  
+  .contentEditableDiv:focus {
+    outline: none; /* 聚焦时不显示边框或轮廓 */
+  }
+
+.AcontainerBgImg{
+    background-image: url('/src/assets/images/Answer_Bg_Img.png');
+    background-size: 100% 100%;
+    /* width: 50%; */
+    padding: 2%;
+    background-repeat: no-repeat;
+    height: auto; 
+    width: 50%; 
+    margin: 0 5%;
+}
+
+.BorderStyle{
+    font-size: 25px;
+    margin: 2%;
+    /* padding: 2%; */
+    /* padding-bottom: 15%; */
+}
+
+.inputMustKeyWords{
+    all:unset;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    color: red;
+}
+
+.inputMustKeyWords::placeholder{
+    color: red;
+}
+
+.inputKeyWords{
+    all:unset;
+    width: 200px;
+    border: none;
+    font-size: 20px;
+    color: green;
+}
+
+.inputKeyWords::placeholder{
+    color: green;
+}
+
+/* 
+.inputKeyWords:focus {
+    border-color: rgb(32, 206, 232); 
+} */
+

@@ -1,0 +1,64 @@
+.title{
+    font-size: 30px;
+    align-content: center;
+}
+.subTitle{
+    font-size: 20px;
+    color: black;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttonBox{
+  background: rgb(190, 188, 188);
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 180px;
+  margin: 10px 20px;
+  display:inline-flex;
+  /* gap: 10px; */
+}
+
+.buttonStyle{
+  background: transparent;
+  border: none;
+  width: 150px;
+  text-align: center;
+}
+
+.container:only-child{
+    margin: 20px;
+}
+
+.circleButton {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #adb0b0;
+    color: white;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.2s;
+  }
+  
+  .circleButton.active {
+    background-color: #e74c3c;
+  }
+
+  .buttonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+

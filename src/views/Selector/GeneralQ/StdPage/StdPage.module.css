@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.subContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.title:only-child{
+    margin: 20px;
+}
+
+.title{
+    font-size: 20px;
+    align-content: center;
+    width: auto;
+    gap: 20px;
+    
+}
+
+.qInputSpacing{
+    margin-bottom: 20px;
+}
+
+.componentStyle{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.textStyle{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.selectorStyle{
+    width: 300px;
+    border-color: black;
+    height: 30px;
+    border-radius: 10px;
+}
